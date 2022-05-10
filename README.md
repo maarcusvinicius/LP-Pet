@@ -1,4 +1,4 @@
-<h1 align="center"> UFC 🥊</h1>
+<h1 align="center">UFC 🥊</h1>
 
 <p align="center">🚀 LP livre para construir interfaces do usuário com componentes reutilizáveis</p>
 
@@ -49,7 +49,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br><br>
 <h4 align="center"> 
-	🚧  Origin 🚀 em contrução...  🚧
+	🚧  UFC 🥊 em construção...  🚧
 </h4>
 <br>
 <p align="center">Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!</p>
