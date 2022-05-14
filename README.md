@@ -1,4 +1,4 @@
-<h1 align="center">UFC 🥊</h1>
+<h1 align="center">Pet 🐶</h1>
 
 <p align="center">🚀 LP livre para construir interfaces do usuário com componentes reutilizáveis</p>
 
@@ -14,25 +14,25 @@ Me aprofundar mais em CSS, HTML e JS para criação de futuros projetos frontend
 
 <h2 id="roadmap">🐱‍🏍 Roadmap</h2>
 
-    - [ ] Criar HTML
+  - [ ] Criar HTML
 
-    - [ ] Criar CSS
+  - [ ] Criar CSS
 
-    - [ ] Criar JarvaScript
+  - [ ] Criar JarvaScript
 
-    - [ ] Configurar acessibilidade
+  - [ ] Configurar acessibilidade
 
-    - [ ] Configurar responsividade
+  - [ ] Configurar responsividade
 
-    - [ ] Versão noturna
+  - [ ] Versão noturna
 
-    - [ ] Versão mobile
+  - [ ] Versão mobile
 
-    - [ ] Versão desktop
+  - [ ] Versão desktop
 
-    - [ ] Postar site no ar
+  - [ ] Postar site no ar
 
-    - [ ] Relatório README completo
+  - [ ] Relatório README completo
 
 
 
@@ -49,7 +49,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br><br>
 <h4 align="center"> 
-	🚧  UFC 🥊 em construção...  🚧
+	🚧  Pet 🐶 em construção...  🚧
 </h4>
 <br>
 <p align="center">Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!</p>
