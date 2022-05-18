@@ -6,7 +6,7 @@
 }
 
 :root {
-  --hue: 170;
+  --hue: 390;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -322,7 +322,7 @@ body.menu-expanded button path {
 }
 
 #home img {
-  width: 26.4rem;
+  width: 46.4rem;
   display: block;
   margin-inline: auto;
   object-position: 0 2rem;
@@ -475,7 +475,7 @@ footer .social-links {
   transform: translateY(0);
 }
 
-/*=== RESPONSIVO =================================*/
+/*=== RESPONSIVO ======================================================*/
 @media (min-width: 1024px) {
   /*=== GERAL =================================*/
   body {
