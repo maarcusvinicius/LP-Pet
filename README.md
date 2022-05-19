@@ -14,7 +14,7 @@ Me aprofundar mais em CSS, HTML e JS para criação de futuros projetos frontend
 
 <h2 id="roadmap">🐱‍🏍 Roadmap</h2>
 
-  - [ ] Criar HTML
+  - [x] Criar HTML
 
   - [ ] Criar CSS
 
