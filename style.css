@@ -46,20 +46,15 @@ body {
 }
 
 .logo {
-  max-height: 30rem;
   text-decoration: none;
-  color: var(--primary-color);
+  color: black;
   font-size: 2.5rem;
-  
 }
 
 .logo2 {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 2.5rem;
   font-weight: bold;
-  padding-right: 30rem;
-  width:auto;
 }
 
 .wrapper {
@@ -74,6 +69,7 @@ ul {
 
 img {
   max-width: 100%;
+  border-radius: 6px;
 }
 
 section {
@@ -296,13 +292,11 @@ body.menu-expanded .menu {
 }
 
 body.menu-expanded .logo,
+body.menu-expanded .logo2,
 body.menu-expanded button {
   position: relative;
+  color: white;
   z-index: 100;
-}
-
-body.menu-expanded .logo path {
-  fill: white;
 }
 
 body.menu-expanded button path {
@@ -516,6 +510,7 @@ footer .social-links {
   section {
     padding-block: 16rem;
   }
+
   section header h2 {
     font-size: 4rem;
     line-height: 5.2rem;
@@ -537,6 +532,19 @@ footer .social-links {
     color: initial;
     background-color: initial;
     filter: initial;
+  }
+
+  nav#navigation .logo {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+  }
+
+  nav#navigation .logo2 {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: bold;
   }
 
   nav#navigation .close-menu,
@@ -644,7 +652,7 @@ footer .social-links {
 
   /*=== HOME =================================*/
   #home::before {
-    height: calc(96% - var(--nav-height));
+    height: calc(106% - var(--nav-height));
   }
 
   #home {
@@ -689,10 +697,12 @@ footer .social-links {
 
   #home .button {
     margin: 0;
+    margin-bottom: 2rem;
   }
 
   #home img {
-    width: 42rem;
+    padding-bottom: 0;
+    width: 90rem;
   }
 
   /*=== SERVICES =================================*/
@@ -730,7 +740,7 @@ footer .social-links {
   /*=== CONTACT =================================*/
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   #contact h2 {
@@ -744,7 +754,7 @@ footer .social-links {
 
   footer .wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   footer .col-a {
