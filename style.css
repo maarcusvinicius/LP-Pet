@@ -660,7 +660,7 @@ footer .social-links {
   }
 
   #home .wrapper {
-    grid-template-columns: 60.5rem 1fr;
+    grid-template-columns: 60rem 1fr;
     grid-template-areas:
       "A B"
       "C C";
@@ -680,6 +680,8 @@ footer .social-links {
   }
 
   #home .stats {
+    position: relative;
+    bottom: -5rem;
     grid-area: C;
 
     flex-direction: row;
@@ -701,13 +703,14 @@ footer .social-links {
   }
 
   #home img {
-    padding-bottom: 0;
-    width: 90rem;
+    position: relative;
+    bottom: -10rem;
+    width: 50rem;
   }
 
   /*=== SERVICES =================================*/
   #services h2 {
-    width: 49rem;
+    width: 55rem;
     margin-inline: auto;
   }
 
