@@ -397,6 +397,28 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
+/*=== DEPOIMENTS =================================*/
+#depoiments header h2 {
+  margin-bottom: 6rem;
+}
+
+#depoiments .cards {
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+}
+
+#depoiments .card {
+  padding: 2.4rem;
+  text-align: left;
+
+  background-color: var(--brand-light);
+}
+
+#depoiments .card h5 {
+  margin-block: 1.6rem;
+}
+
 /*=== ABOUT =================================*/
 #about {
   text-align: left;
