@@ -18,15 +18,23 @@ Me aprofundar mais em CSS, HTML e JS para criação de futuros projetos frontend
 
   - [x] Criar CSS
 
-  - [x] Criar JarvaScript
+    - [x] HOME
+  
+    - [x] MENU EXPANDED
+  
+    - [x] NAVIGATION
 
-  - [ ] Configurar acessibilidade
+    - [x] SERVICES
+    
+    - [ ] DEPOIMENTS
+    
+    - [x] ABOUT
+
+  - [x] Criar JarvaScript
 
   - [x] Configurar responsividade
 
   - [ ] Versão noturna
-
-  - [ ] Descrição
 
   - [x] Versão mobile
 

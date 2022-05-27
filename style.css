@@ -153,7 +153,7 @@ section .content p {
   fill: var(--brand-light);
 }
 
-#navigation .logo path[fill*="#00856F"],
+#navigation .logo,
 #backToTopButton circle {
   fill: var(--primary-color);
 }
@@ -163,7 +163,7 @@ button.open-menu path[stroke*="#00856F"],
   stroke: var(--primary-color);
 }
 
-body.menu-expanded #navigation .logo path,
+body.menu-expanded #navigation .logo,
 #navigation.scroll .logo path {
   fill: white;
 }
@@ -403,9 +403,10 @@ body.menu-expanded button path {
 }
 
 #depoiments .cards {
+  width: 130rem;
   display: flex;
   flex-direction: row;
-  gap: 3.2rem;
+  gap: 3rem;
 }
 
 #depoiments .card {
@@ -417,6 +418,69 @@ body.menu-expanded button path {
 
 #depoiments .card h5 {
   margin-block: 1.6rem;
+  color: var(--primary-color);
+}
+
+#depoiments .card p {
+  padding-top: 2rem;
+}
+
+#depoiments #card-atual {
+  margin-left: 0;
+}
+
+#depoiments .btn1 {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+
+  background: var(--primary-color);
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+#depoiments .btn2 {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 2rem;
+
+  background: var(--primary-color);
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+#depoiments .balls {
+  position: flex;
+  width: 43rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+
+#depoiments .balls div {
+  border: 3px solid var();
+  padding: 0.6rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--brand-light);
+  cursor: pointer;
+}
+
+#depoiments .balls div:hover {
+  background-color: var(--primary-color);
+}
+
+#depoiments .balls .depoAtual {
+  background-color: var(--primary-color);
+}
+
+#depoiments .card path {
+  fill: var(--primary-color);
 }
 
 /*=== ABOUT =================================*/
