@@ -398,19 +398,25 @@ body.menu-expanded button path {
 }
 
 /*=== DEPOIMENTS =================================*/
+
 #depoiments header h2 {
   margin-bottom: 6rem;
 }
 
 #depoiments .cards {
+  position: relative;
+  padding-inline: 2.4rem;
+
   width: 130rem;
+  height: 27rem;
   display: flex;
   flex-direction: row;
   gap: 3rem;
 }
 
 #depoiments .card {
-  padding: 2.4rem;
+  height: 27rem;
+  padding: 2.6rem;
   text-align: left;
 
   background-color: var(--brand-light);
@@ -426,7 +432,8 @@ body.menu-expanded button path {
 }
 
 #depoiments #card-atual {
-  margin-left: 0;
+  left: -130rem;
+  transition: all 2s;
 }
 
 #depoiments .btn1 {
