@@ -92,7 +92,9 @@ var next = document.getElementById("next");
 var back = document.getElementById("back");
 var rolar = true;
 
-for (let i = 0; i < 3; i++) {
+var ava = quant.length - 6;
+
+for (let i = 0; i < ava; i++) {
   var div = document.createElement("div");
   div.id = i;
   balls.appendChild(div);
@@ -123,10 +125,10 @@ next.addEventListener("click", () => {
 });
 
 function slide() {
-  if (atual >= 3) {
+  if (atual >= ava) {
     atual = 0;
   } else if (atual < 0) {
-    atual = 3 - 1;
+    atual = ava - 1;
   }
   document.querySelector(".depoAtual").classList.remove("depoAtual");
   card.style.marginLeft = -85 * atual + "rem";
