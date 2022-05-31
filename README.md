@@ -26,7 +26,7 @@ Me aprofundar mais em CSS, HTML e JS para criação de futuros projetos frontend
 
     - [x] SERVICES
     
-    - [ ] DEPOIMENTS
+    - [x] DEPOIMENTS
     
     - [x] ABOUT
 
