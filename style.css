@@ -399,6 +399,10 @@ body.menu-expanded button path {
 
 /*=== DEPOIMENTS =================================*/
 
+#depoiments {
+overflow-x: hidden;
+}
+
 #depoiments header h2 {
   margin-bottom: 6rem;
 }
@@ -411,12 +415,15 @@ body.menu-expanded button path {
   height: 27rem;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
 }
 
 #depoiments .card {
-  height: 27rem;
   padding: 2.6rem;
+  width: 40rem;
+  height: 27rem;
   text-align: left;
 
   background-color: var(--brand-light);
@@ -424,6 +431,8 @@ body.menu-expanded button path {
 
 #depoiments .card h5 {
   margin-block: 1.6rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
   color: var(--primary-color);
 }
 
@@ -431,8 +440,14 @@ body.menu-expanded button path {
   padding-top: 2rem;
 }
 
+#depoiments img {
+  display: flex;
+  float: left;
+  margin-block: 1.4rem;
+  width: 4rem;
+}
+
 #depoiments #card-atual {
-  left: -130rem;
   transition: all 2s;
 }
 
@@ -447,6 +462,7 @@ body.menu-expanded button path {
   border-radius: 6px;
 
   cursor: pointer;
+  transition: background 200ms;
 }
 
 #depoiments .btn2 {
@@ -459,6 +475,13 @@ body.menu-expanded button path {
   border-radius: 6px;
 
   cursor: pointer;
+  transition: background 200ms;
+}
+
+#depoiments .btn1:hover,
+#depoiments .btn2:hover {
+
+  background-color: var(--brand-dark);
 }
 
 #depoiments .balls {
