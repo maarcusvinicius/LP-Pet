@@ -75,6 +75,8 @@ ScrollReveal({
     #services,
     #services header,
     #services .card,
+    #depoiments,
+    #depoiments header,
     #about,
     #about header,
     #about .content
@@ -88,11 +90,13 @@ var atual = 0;
 var card = document.getElementById("card-atual");
 var next = document.getElementById("next");
 var back = document.getElementById("back");
+var rolar = true;
 
-for (let i = 0; i < quant.length; i++) {
+for (let i = 0; i < 3; i++) {
   var div = document.createElement("div");
   div.id = i;
   balls.appendChild(div);
+  console.log("errado")
 }
 
 document.getElementById("0").classList.add("depoAtual");
@@ -102,27 +106,37 @@ var pos = document.querySelectorAll(".balls div");
 for (let i = 0; i < pos.length; i++) {
   pos[i].addEventListener("click", () => {
     atual = pos[i].id;
+    rolar = false;
     slide();
   });
 }
 
 back.addEventListener("click", () => {
   atual--;
+  rolar = false;
   slide();
 });
 next.addEventListener("click", () => {
   atual++;
+  rolar = false;
   slide();
 });
 
 function slide() {
-  if (atual >= quant.length) {
+  if (atual >= 3) {
     atual = 0;
   } else if (atual < 0) {
-    atual = quant.length - 1;
+    atual = 3 - 1;
   }
   document.querySelector(".depoAtual").classList.remove("depoAtual");
-  card.style.marginLeft = -60 * atual + "rem";
+  card.style.marginLeft = -85 * atual + "rem";
   document.getElementById(atual).classList.add("depoAtual");
 }
-slide();
+setInterval(() => {
+  if ((rolar = true)) {
+    atual++;
+    slide();
+  } else {
+    rolar = true;
+  }
+}, 4000);
