@@ -400,7 +400,8 @@ body.menu-expanded button path {
 /*=== DEPOIMENTS =================================*/
 
 #depoiments {
-overflow-x: hidden;
+  overflow-x: hidden;
+  bottom: 0;
 }
 
 #depoiments header h2 {
@@ -480,7 +481,6 @@ overflow-x: hidden;
 
 #depoiments .btn1:hover,
 #depoiments .btn2:hover {
-
   background-color: var(--brand-dark);
 }
 
@@ -513,7 +513,58 @@ overflow-x: hidden;
   fill: var(--primary-color);
 }
 
+#depoiments .brands h4 {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+#depoiments .brands .logBusiness {
+  display: flex;
+  justify-content: space-around;
+}
+
+#depoiments .brands .logRock path,
+#depoiments .brands .logGoogle path {
+  fill: var(--primary-color);
+}
+
+#depoiments .brands .logRock {
+  width: 12rem;
+}
+
+#depoiments .banner-CTA {
+  padding-block: 5rem;
+  margin-inline: auto;
+  width: 45rem;
+  height: 25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  bottom: -10rem;
+
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+
+}
+
+#depoiments::after {
+  content: "";
+  width: 100vw;
+  height: 20rem;
+  background-color: var(--brand-beige);
+  display: block;
+
+  position: relative;
+  bottom: 0;;
+  left: 0;
+  z-index: -1;
+}
+
 /*=== ABOUT =================================*/
+
 #about {
   text-align: left;
   background-color: var(--brand-beige);
