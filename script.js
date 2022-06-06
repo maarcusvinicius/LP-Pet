@@ -7,6 +7,7 @@ function onScroll() {
 
   activateMenuAtCurrentSection(home);
   activateMenuAtCurrentSection(services);
+  activateMenuAtCurrentSection(depoiments);
   activateMenuAtCurrentSection(about);
   activateMenuAtCurrentSection(contact);
 }
@@ -98,20 +99,19 @@ for (let i = 0; i < ava; i++) {
   var div = document.createElement("div");
   div.id = i;
   balls.appendChild(div);
-  console.log("errado")
 }
 
 document.getElementById("0").classList.add("depoAtual");
 
 var pos = document.querySelectorAll(".balls div");
 
-for (let i = 0; i < pos.length; i++) {
-  pos[i].addEventListener("click", () => {
-    atual = pos[i].id;
+pos.forEach(po => {
+  po.addEventListener("click", () => {
+    atual = po.id;
     rolar = false;
     slide();
   });
-}
+});
 
 back.addEventListener("click", () => {
   atual--;
@@ -135,10 +135,10 @@ function slide() {
   document.getElementById(atual).classList.add("depoAtual");
 }
 setInterval(() => {
-  if ((rolar = true)) {
+  if ((!rolar == true)) {
+    rolar = true;
+  } else {
     atual++;
     slide();
-  } else {
-    rolar = true;
   }
 }, 4000);
