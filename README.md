@@ -40,9 +40,9 @@ Me aprofundar mais em CSS, HTML e JS para criação de futuros projetos frontend
 
   - [x] Versão desktop
 
-  - [ ] Postar site no ar
+  - [x] Postar site no ar
 
-  - [ ] Relatório README completo
+  - [x] Relatório README completo
 
 
 
@@ -59,7 +59,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br><br>
 <h4 align="center"> 
-	🚧  Pet 🐶 em construção...  🚧
+	✅  Pet 🐶 FINALIZADO  ✅
 </h4>
 <br>
 <p align="center">Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!</p>
