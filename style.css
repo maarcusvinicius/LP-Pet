@@ -401,7 +401,6 @@ body.menu-expanded button path {
 
 #depoiments {
   overflow-x: hidden;
-  z-index: 1;
 }
 
 #depoiments header h2 {
@@ -486,7 +485,7 @@ body.menu-expanded button path {
 
 #depoiments .balls {
   position: flex;
-  width: 43rem;
+  max-width: 40rem;
   display: flex;
   justify-content: flex-end;
   margin-top: 3rem;
@@ -539,8 +538,8 @@ body.menu-expanded button path {
   left: 0;
 
   margin-top: 0;
-  width: 100%;
-  max-width: 45rem;
+  width: 45rem;
+  max-width: 100%;
 
   position: absolute;
   top: -70px;
@@ -582,6 +581,8 @@ body.menu-expanded button path {
 
 #about .button p {
   color: var(--primary-color);
+
+  max-width: 100%;
 }
 
 #about .button path {
@@ -612,8 +613,9 @@ body.menu-expanded button path {
   background-color: var(--brand-beige);
 }
 
-#about header h2 {
-  margin-bottom: 2.4rem;
+#about header,
+#about img {
+  margin-top: 3rem;
 }
 
 #about .content p {
@@ -934,11 +936,45 @@ footer .social-links {
     flex-grow: 1;
   }
 
+  /*=== DEPOIMENTS =================================*/
+  #depoiments header {
+    width: 108rem;
+    margin-top: -13rem;
+  }
+
+  #depoiments .cards {
+    right: -32rem;
+  }
+
+  #depoiments .btn {
+    position: relative;
+    right: -20rem;
+  }
+
+  #depoiments .balls {
+    max-width: 90rem;
+  }
+
+  #depoiments .brands {
+    max-width: 108rem;
+  }
+
   /*=== ABOUT =================================*/
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
     grid-template-areas: "B A";
     gap: 6.7rem;
+  }
+
+  #about .banner-CTA {
+    width: 80rem;
+  }
+
+  #about .banner-CTA h1 {
+    font-size: 3rem;
+
+
+    padding-inline: 0rem;
   }
 
   #about .col-a {
