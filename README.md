@@ -44,7 +44,12 @@ Me aprofundar mais em CSS, HTML e JS para criação de futuros projetos frontend
 
   - [x] Relatório README completo
 
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/destoppp.png">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/mblie.png">
+</h1>
 
+Teste você mesmo!!🔎 https://maarcusvinicius.github.io/LP-Pet/
 
 <h2 id="tecnologias"> 🛠 Tecnologias </h2>
 
