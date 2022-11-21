@@ -1,48 +1,113 @@
-<h1 align="center">Pet 🐶</h1>
+<h1 align="center">LP Pet 🐶</h1>
 
-<p align="center">🚀 LP livre para construir interfaces do usuário com componentes reutilizáveis</p>
+<p align="center">🔥 Landing Page livre para construir interfaces do usuário com componentes reutilizáveis</p>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a>
+  <a href="#-executar">Como executar</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-projeto">Projeto</a> • 
+  <a href="#-objetivo">Objetivo</a> • 
+  <a href="#-roadmap">Roadmap</a>
 </p>
 
-<h2 id="objetivo">✅ Objetivo </h2>
+<br />
 
-Me aprofundar mais em CSS, HTML e JS para criação de futuros projetos frontend, Landing Page acessivel e de fácil compreensão!!
+## 💻 Version Web
 
-<h2 id="roadmap">🐱‍🏍 Roadmap</h2>
+<br />
 
-  - [x] Criar HTML
+<div id="layout" align="center">
+  <p align="stretch">
+    <img align="center" height="200" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/destoppp.png">
+  </p>
+</div>
 
-  - [x] Criar CSS
+## 📲 Version Mobile
 
-    - [x] HOME
-  
-    - [x] MENU EXPANDED
-  
-    - [x] NAVIGATION
+<br />
 
-    - [x] SERVICES
+<div id="layout" align="center">
+  <p align="stretch">
+    <img align="center" height="200" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/mblie.png">
+  </p>
+</div>
+
+<br />
+
+Teste você mesmo!!🔎 https://maarcusvinicius.github.io/LP-Pet/
+
+<br />
+
+## 🚀 Como executar
+
+Clone o repositório e acesse a pasta.
+
+```bash
+$ git clone https://github.com/maarcusvinicius/LP-Pet.git
+
+Para iniciar o projeto:
+
+# Instalar as dependências
+$ npm install / yarn
+
+# Iniciar o projeto
+$ npm run / yarn run
+```
+A aplicação pode ser acessada em [`localhost:5173`](http://localhost:5173).
+
+<br />
+
+## 🔧 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+<br />
+
+## 💻 Projeto
+
+O LP Pet é um projeto que simula uma Landing Page via Web, onde é possível ter todas as informações que precisa para o ambiente e um ótimo design com HTML, CSS e Javascript PURO. Projeto já finalizado!
+
+<br />
+
+## ✅ Objetivo
+
+Me aprofundar mais em Clean Code, CSS puro, HTML e JS puro para criação de futuros projetos frontend, Landing Page acessivel e de fácil compreensão!!
+
+## 🏍️ Roadmap
+
+    - [x] Criar HTML
+
+    - [x] Criar CSS
+
+      - [x] HOME
     
-    - [x] DEPOIMENTS
+      - [x] MENU EXPANDED
     
-    - [x] ABOUT
+      - [x] NAVIGATION
 
-  - [x] Criar JarvaScript
+      - [x] SERVICES
+      
+      - [x] DEPOIMENTS
+      
+      - [x] ABOUT
 
-  - [x] Configurar responsividade
+    - [x] Criar JarvaScript
 
-  - [ ] Versão noturna
+    - [x] Configurar responsividade
 
-  - [x] Versão mobile
+    - [ ] Versão noturna
 
-  - [x] Versão desktop
+    - [x] Versão mobile
 
-  - [x] Postar site no ar
+    - [x] Versão desktop
 
-  - [x] Relatório README completo
+    - [x] Deploy
+
+    - [x] Relatório README completo
 
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/destoppp.png">
@@ -64,21 +129,45 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br><br>
 <h4 align="center"> 
-	✅  Pet 🐶 FINALIZADO  ✅
+	✅  LP Pet 🐶 FINALIZADO  ✅
 </h4>
-<br>
-<p align="center">Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!</p>
+<br />
 
-<div align="center">  
-  <a href = "mailto:marcus.editor77@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href = "https://www.linkedin.com/in/marcus-vinicius-507718228/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-</div>
+<br />
 
-<br>
-<div align="center">  
-#NextLevel
-#NeverStopLearning
-#NewSkills
-#StepByStep
-#MissionAccomplished
-</div>
+Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//feito readme marcus 
+
+
+### Olá, sou Marcus <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" >
+
+Sou Desenvolvedor Web, um programador procurando fazer a diferença no mundo digital. [**Profile Github**](https://github.com/maarcusvinicius). 🚀
+
+#### Minhas ferramentas atuais
+📲 Front-end Mobile com React Native  
+🌎 Front-end Web com Reactjs  
+📡 Back-end com Nodejs  
+🛠️ Typescript  
+🧰 And more...  
+
+
+#### 💬 Encontre-me em outro lugar
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcus-vinicius-507718228/)](https://www.linkedin.com/in/marcus-vinicius-507718228/)
+[![Gmail Badge](https://img.shields.io/badge/-marcus.editor77@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marcus.editor77@gmail.com)](marcus.editor77@gmail.com)
