@@ -1,6 +1,6 @@
 <h1 align="center">LP Pet 🐶</h1>
 
-<p align="center">🔥 Landing Page livre para construir interfaces do usuário com componentes reutilizáveis</p>
+<p align="center">🔥 Landing Page livre para construir interfaces do<br> usuário com componentes reutilizáveis!</p>
 
 <p align="center">
   <a href="#-executar">Como executar</a> •
@@ -18,17 +18,8 @@
 
 <div id="layout" align="center">
   <p align="stretch">
-    <img align="center" height="200" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/destoppp.png">
-  </p>
-</div>
-
-## 📲 Version Mobile
-
-<br />
-
-<div id="layout" align="center">
-  <p align="stretch">
-    <img align="center" height="200" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/mblie.png">
+    <img align="center" height="190" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/destoppp.png">
+    <img align="center" height="190" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/mblie.png">
   </p>
 </div>
 
