@@ -118,7 +118,19 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </div>
 
 
-<br><br>
+<br>
+
+## License
+
+<p>
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit/). Feel free to use, modify and distribute it as needed.
+
+</p>
+
+<br />
+<br />
+<br />
 <h4 align="center"> 
 	✅  LP Pet 🐶 FINALIZADO  ✅
 </h4>
